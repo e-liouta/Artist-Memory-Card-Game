@@ -17,8 +17,8 @@ body{
     justify-content: center;
   }
   .cards{
-    height: 400px;
-    width: 400px;
+    /* height: 400px;
+    width: 400px; */
     flex-wrap: wrap;
     justify-content: space-between;
   }
@@ -29,8 +29,8 @@ body{
     position: relative;
     perspective: 1000px;
     transform-style: preserve-3d;
-    height: calc(100% / 4 - 10px);
-    width: calc(100% / 4 - 10px);
+    height: calc(100% / 7 - 10px);
+    width: calc(100% / 8 - 10px);
   }
   .card.shake{
     animation: shake 0.35s ease-in-out;
